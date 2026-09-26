@@ -1,0 +1,285 @@
+{
+  "generator": "py-enigma 1.0.2",
+  "cipher": [
+    {
+      "name": "UKW C, IV I V, mixed rings, 6 cables",
+      "reflector": "C",
+      "rotors": [
+        "IV",
+        "I",
+        "V"
+      ],
+      "rings": [
+        7,
+        11,
+        26
+      ],
+      "plugboard": "AZ BY CX DW EV FU",
+      "start": "QEV",
+      "plaintext": "THEQUICKBROWNFOXJUMPSOVERTHELAZYDOGWHILETHEROTORSTURNANDTHELAMPSGLOW",
+      "ciphertext": "HGQCQUVXRPKISGKCSQWBKTPMARGWMPVBADNCMQVTVTYQRYKWNHYZDRKMOELPZWERCMEM"
+    },
+    {
+      "name": "UKW B, V III II, rings at extremes, no cables",
+      "reflector": "B",
+      "rotors": [
+        "V",
+        "III",
+        "II"
+      ],
+      "rings": [
+        26,
+        1,
+        13
+      ],
+      "plugboard": "",
+      "start": "ZZZ",
+      "plaintext": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "ciphertext": "KJIRVKXSGDQPEGDLDXWHDSGMTLSSPZRNMWEJTKYFDBVLVZMOGSGLRDJETQSR"
+    },
+    {
+      "name": "UKW C, III II I, 10 cables",
+      "reflector": "C",
+      "rotors": [
+        "III",
+        "II",
+        "I"
+      ],
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "plugboard": "AN BO CP DQ ER FS GT HU IV JW",
+      "start": "XYZ",
+      "plaintext": "ENIGMAMACHINESWEREUSEDBYTHEGERMANARMEDFORCES",
+      "ciphertext": "HTPURFSUVJSMHCHMJHMZMLXROKCNVWRPOUVWKTJUGNCN"
+    },
+    {
+      "name": "UKW B, II V IV, 10 cables, 1000 letters",
+      "reflector": "B",
+      "rotors": [
+        "II",
+        "V",
+        "IV"
+      ],
+      "rings": [
+        3,
+        17,
+        22
+      ],
+      "plugboard": "AG BK CZ DP EW FR HO IX JT LN",
+      "start": "MEJ",
+      "plaintext": "OYTKXCHQKPGRMTUBYITEQTROJZWDISEGNGJPUWTMNIPSOABEXRDPIBTVFVZGNMZTGEKFEXKDOIJSVMHKXSHETPEDGARYPCFGLYNNYVMHDUJJNQQMQLFLMIYOOOZIGZDXOXTNWIOQMFGAQJKIKTBTPNTWKMDYTHXSSIGUMVAMOURFTQNPYIHGAEQBCOHVAFXKNHOLYTWTVCMNWQFXKPCUESOCQDJYJZKXDEEABOIOHCJKOSEAGPVVXVTAZJVRBTPVEAFNIEVOBBZABEAMRLVJPYNVBTJEQNFIDHIRDQJZRAPIZDTZZGGCVVOMEUWASHSOXWKVQZAQRQGUFHBXTFXQXSDZEJNJEIOWGERDPHEDGZUPZAJWXVUMKTAMUBRIOIPLKETWCBIUFWIRDMWLJIVOWDPNDUUNLKHBDJZEGDTTSIVVQXVGKZUYHMDMNXXZZHWDACMLCPSYFYZPXSIZMTMCWCNVCCQQSVEDCYLLATJIENWHVORWXHVYDFVMUIFAVATXFPEUUUCDTPXJGYBVMYTWRQBKUJQZMPXNBCPCTKMGBDBJSWJIULHSQGCFHASGWXNLEFUPFMKIVLFOPHXVHNOBGQCJLAHHJSUWGYHDGKQZNCVEVYQANGKKATDAUGXTFEDOUOGLXFVRVCHKLMLHYNKLUVVOCNNFNIWQTKPZCQOOOOTGGACDKENXAIJBYTWHRUERZKMJWCRSANXLTYWISZFUXVMTIFCEVJXTKEFZVCFURKHZHEKERHYAFUYXWESXCAZQNFJZZTDFWSJESTEHJHNDCQPLFHZHMQKIODDZXIZTPXHDIZVZGRPQRMPUFXPTVOJVJZWJXPWTGWFEHRCRKLFRADJKPTPVUAGJDKQOYHLXEFMIQWDIAGCHQEFYDOXUDFBUQDPIOYALHDTZCTRWJMUMVTRMXLYOFLZFDFWPJWTZSYLMZTECPYNNDNMWQFDPAUFEQLUZGMZXPZUVJDCYSCGANSBBIICZITTXTYASLLTK",
+      "ciphertext": "IOKGEEMPOZYKZECRCUSSZZIDIRJIDPMJKAIEFHQJKNKMPTCFMIYGANQLAEOHUIBBTCQKICGCQQBEPIXUJHFGFVCIBFPQWDBPREGICYQTFYNEYXZONOLGIYENUPGVOSCLERMGGBDVYPOBFPAZTNZAMHPEXYCDQJFDOMJEATTHGIIEAVHRBYUJZLBJJVGIJULMEEUBUPJCPHQUUUOHBEVQIJEVMJLOBPEVZHCIDUGHYUWFHITMMWHIDGUHCZYCWHJGSJADCXJPAHDKFMIRUHWDFAHJLHXCFURQTITMFLNBXHWAJGEMJYCBUXNQRTYPFITAUJMQEDQEHDDPLQTVDLNIAGYPHEXKSFXDMPFIBWKNEBZCWTVLGGZVIDITJRMOWUMKUWIOMSUXPJJEHSKWDNUDCLSJMDPZGPPJLHHOJRBYBDGZZQPDGXCLRDKEHYLVXEIBDBDSTYGHAHUITLUWCGQIJNIJIUBMKHYYDMFZOOTWCFAXJMNZFFBKRGSCOTKOMREUDYUPZGFUEJZTIPSGBELUGSKPZQWDDYZBWYNXQHTQCROHNGKEAZDLWPOPWRJNLMHRWJRQNKNEYCNGTAUQXMGFIHYXOGLTNNOJFDOQMRDEDKINYHWFGXPUEHNWODEURWLLRHCXCMCQLVTQCZPYTOZISEYSNQLBPLXJJTDLDBRSDJWLPEOFWTPSZBRXUEOBGKUKTTAMGIEFFJKQSNGMUNBLGNPJQNMQNILZUJJBOMKHTWXEIFYAHYMYWPHBNSYQXGIURGMGXYPWNHZXKMUJOWFPTRSBTRTQHWOGAIBXLDJNTQDYZIKEVYRRWAEXLERENIBFCHVQRIUOQZDPXOGEUVROFRZQSXRBWYZAGRIGOENOIJWKGUTTERYFBYBQLWBEVXCIYSRUCNXUPPCJPVKKCSCXMREKUCPUINQSBBFLIAGJXQQPTXHXMWOMMOOLIVRMIYZDLMBDSJWRSHCIUQJBEUSMWLEKLDRXFUQKFVEQQRBJ"
+    },
+    {
+      "name": "UKW C, I II III, 1 cable, 700 letters",
+      "reflector": "C",
+      "rotors": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rings": [
+        2,
+        5,
+        9
+      ],
+      "plugboard": "QM",
+      "start": "PDU",
+      "plaintext": "HHGJPPXCMMMPRCYBMQXBBFDQYKXNSBLARCNLCZDGYBOJFHQEJIHQOVJPHTZMGQCCHHCJZVOOHXSOHDYPVDOYXPUHEQMMZXGHJSVWNSWAVNVGWESALEYTLUQOWJOZOAITSRYRRORTPQCIUYODAIOCXDKVSIRVQIEFXSMWBQWYWYNTIRGZUPYBSMRMTFFQNECLMXJDETUMTPDBSSYUSGDAJPBHZPDQJUMDFDVWYRBUPUIOJMYJBNKAZLJJXADLVFWUDBQMOHOSXCQDWDQEETDKDZVIYTTXTWOIESGYSPPACOZIAOYRSHMNHSDRPPFSGRQGNOJGRXGWIIVJEACJUTBJMRTQJPXEOTPMKDRUEIRJWUYVMPFYBOGAGWPBVJYSLFDMBYCMFIWYXOKEJAFHJUWAINRNODTJQJINEKWBPHFJKIMQDXAAFAYBYRLSVGOUWLKHJXCTCJFSYCGSVJUJSVSUOTEYHLQZZEZCJOAONLQKOYNOLVRHDPNLGZGQOXFQFZXRFYHBQMDLXEUJWZTORRNITODGLWLSHLQFIRYPUOXHCQPFLAAEHQGJXFDGPPKEFTFKUUHACSAGMRYYCBDQQSUNGGWVNVEHERCMEAWYPFEDFSXJQWKCIUMYWOQZQATTFVGLXHOYMPRDUYKWJYPUURKQMRXXCABMPUFVYKOGNNBKIFKXCPIXKLDUGMUPEKHA",
+      "ciphertext": "DXURZZSJVKLVERZQAWSTQHSRLZFRBJFTHTYVRELUQQYSKNWWFXGKEAEUQGMDEFLTLRISMAMBTKKWQLFJLCEONCZYPMSVSSKZZLSDBFEBFOHMTNCGKTCSFOBQFXBTAVRSXSKZCTNNXRBFZIZNQVPFFHVUYPXMYYWDNIBTRALSSVYQRFDBBHNOAHXIIXSNUONRDGPNFZEIEUYJOONQAVWGGGTTGHKGCAQJYXPCFEVBCNBWXPOWNYZBBWPKHSIBWLSSFOUSTYRHEKZIPIYLRBTHELRDEZFFGGWTGBTOMLMTURPQZZZCUGIOKILENXWTFTFTMMVXMKULMMXFMFEMSNNHKFBJYEADDIQKGIKZHZZYDIFCNYJLCWDXVKMVYFDFQJMOGHPGUPXMSVNWQDPQBZUNQOPUTXAEPGJLRQMFJWYXBSUBQHYKEHSQAHUYNMIZFFIKFAIWBKELJLZOSXPFFGDNUSBINZEARIPJPDNVVRLVPAXJRPZFAHGQSILSHKNYIUEBNAKRTCNYAMVCXBKJGHHUQYBYIEJNMTXQJDVXKUDRAYULKZHGMZLOEYZTXUSBJPLZIFEDRKHXWERSDLOHJWDUBPUEJAYBRALLNDXANIXVPCHCXXPIVANWQTXPCOSOHPMCQAESSXFQDXCFGUTBNOVPXGPCUXWDFWOTNIZZCXRVNGEESYUQHSBKEIQULIBR"
+    }
+  ],
+  "stepping": [
+    {
+      "name": "III right, II middle: double step E->F",
+      "rotors": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "start": "ADT",
+      "presses": 5,
+      "windows": [
+        "ADT",
+        "ADU",
+        "ADV",
+        "AEW",
+        "BFX",
+        "BFY"
+      ]
+    },
+    {
+      "name": "I middle notch Q, rings shifted",
+      "rotors": [
+        "V",
+        "I",
+        "II"
+      ],
+      "rings": [
+        13,
+        20,
+        4
+      ],
+      "start": "ZPD",
+      "presses": 6,
+      "windows": [
+        "ZPD",
+        "ZPE",
+        "ZQF",
+        "ARG",
+        "ARH",
+        "ARI",
+        "ARJ"
+      ]
+    },
+    {
+      "name": "IV middle notch J, V right notch Z",
+      "rotors": [
+        "III",
+        "IV",
+        "V"
+      ],
+      "rings": [
+        1,
+        26,
+        12
+      ],
+      "start": "AIY",
+      "presses": 6,
+      "windows": [
+        "AIY",
+        "AIZ",
+        "AJA",
+        "BKB",
+        "BKC",
+        "BKD",
+        "BKE"
+      ]
+    },
+    {
+      "name": "V middle notch Z wraps to A",
+      "rotors": [
+        "II",
+        "V",
+        "I"
+      ],
+      "rings": [
+        5,
+        5,
+        5
+      ],
+      "start": "KYP",
+      "presses": 30,
+      "windows": [
+        "KYP",
+        "KYQ",
+        "KZR",
+        "LAS",
+        "LAT",
+        "LAU",
+        "LAV",
+        "LAW",
+        "LAX",
+        "LAY",
+        "LAZ",
+        "LAA",
+        "LAB",
+        "LAC",
+        "LAD",
+        "LAE",
+        "LAF",
+        "LAG",
+        "LAH",
+        "LAI",
+        "LAJ",
+        "LAK",
+        "LAL",
+        "LAM",
+        "LAN",
+        "LAO",
+        "LAP",
+        "LAQ",
+        "LBR",
+        "LBS",
+        "LBT"
+      ]
+    },
+    {
+      "name": "III middle notch V, IV right notch J",
+      "rotors": [
+        "I",
+        "III",
+        "IV"
+      ],
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "start": "QUI",
+      "presses": 30,
+      "windows": [
+        "QUI",
+        "QUJ",
+        "QVK",
+        "RWL",
+        "RWM",
+        "RWN",
+        "RWO",
+        "RWP",
+        "RWQ",
+        "RWR",
+        "RWS",
+        "RWT",
+        "RWU",
+        "RWV",
+        "RWW",
+        "RWX",
+        "RWY",
+        "RWZ",
+        "RWA",
+        "RWB",
+        "RWC",
+        "RWD",
+        "RWE",
+        "RWF",
+        "RWG",
+        "RWH",
+        "RWI",
+        "RWJ",
+        "RXK",
+        "RXL",
+        "RXM"
+      ]
+    },
+    {
+      "name": "Left rotor at its own notch does not move by itself",
+      "rotors": [
+        "I",
+        "II",
+        "III"
+      ],
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "start": "QAA",
+      "presses": 3,
+      "windows": [
+        "QAA",
+        "QAB",
+        "QAC",
+        "QAD"
+      ]
+    }
+  ]
+}
